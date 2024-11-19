@@ -1,0 +1,11 @@
+[package]
+name = "decimal-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+edition = "2021"
+name = "DecimalCompiler"
+path = "src/main.rs"
